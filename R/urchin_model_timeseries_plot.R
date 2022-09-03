@@ -71,7 +71,7 @@ urchin_model_timeseries_plot <- function (modeling_data, model) {
                   alpha = 0.2) +
       geom_point(data = model_dat, aes(x = sample_time, y = urchin_Density2), size = 0.6) +
       geom_line(aes(x = sample_time, y = fit)) +
-      labs(y = expression(paste("Urchin density (indv.", m^{-2}, ")")),
+      labs(y = "",#expression(paste("Urchin density (indv.", m^{-2}, ")")),
            x = "") +
       scale_x_continuous(limits = c(0, 691), labels = axis_labels, breaks = c(69, 189, 313, 433, 557, 681)) +
       theme_bw() +
@@ -86,13 +86,15 @@ urchin_model_timeseries_plot <- function (modeling_data, model) {
       )
   }) %>% 
     cowplot::plot_grid(plotlist = ., ncol = 1, labels = LETTERS[1:4],
-                       align = "v", axis = "l", label_x = 0.1, label_y = 0.9)
+                       align = "v", axis = "l", label_x = 0.95, label_y = 0.95,
+                       label_fontface = "bold", label_size = 18) +
+    geom_text(aes(x = 0.02, y = 0.5), label = expression(paste("Urchin density (indv. ", m^{-2}, ")")), angle = 90, size = 6)
+  
   if (!dir.exists(here::here("figures/"))) {
     dir.create("figures/")
   }
   ggsave("figures/fig2.png", p, width = 10, height = 12, units = "in", dpi = 300)
   p
 }
-urchin_model_timeseries_plot(data_st, mm$env_m1I)
 
 
