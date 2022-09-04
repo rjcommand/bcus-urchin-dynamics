@@ -74,3 +74,4 @@ fit_urchin_models <- function(.modeling_data) {
   
   return(list(m0 = m0, m1 = m1, m2 = m2, m3 = m3, m4 = m4, env_m1I = env_m1I, env_m1GI = env_m1GI))
 }
+
