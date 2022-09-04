@@ -14,6 +14,7 @@ tar_plan(
   tar_target(aic_table, get_aic_table(urchin_models)),
   tar_target(fig2, urchin_model_timeseries_plot(bcus_modeling_data, urchin_models$env_m1I)),
   tar_target(urchin_model_summary_table, model_summary_table(urchin_models$env_m1I)),
+  tar_target(fig3, new_urchin_model_smooth_plot(urchin_models$env_m1I, bcus_modeling_data)),
     
   tar_render(analysis, "doc/analysis.Rmd")
   
