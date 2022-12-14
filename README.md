@@ -7,7 +7,7 @@ Raw data files were obtained from:
 - NASA ()
 - DFO ()
 
-The analysis pipeline was built using the `targets` package.
+The analysis pipeline was built using the `targets` package. A reproducibility report detailing package versions, etc. can be found in the docs/analysis.pdf file.
 
 ## To run
 1. Clone the repository.
