@@ -11,7 +11,9 @@ The analysis pipeline was built using the `targets` package.
 
 ## To run
 1. Clone the repository.
-```{bash} git clone "https://github.com/rjcommand/bcus-urchin-dynamics"```
+```bash
+git clone "https://github.com/rjcommand/bcus-urchin-dynamics"
+```
 
 2. Ensure `targets` is installed on your machine.
 
