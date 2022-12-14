@@ -15,6 +15,9 @@ The analysis pipeline was built using the `targets` package.
 git clone "https://github.com/rjcommand/bcus-urchin-dynamics"
 ```
 
-2. Ensure `targets` is installed on your machine.
+2. Ensure `targets` is installed on your machine. In RStudio, run:
+```r
+install.packages("targets")
+```
 
 3. Open the .Rproj file and run `tar_make` in the console.
