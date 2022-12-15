@@ -1,6 +1,6 @@
 ---
-title: "Untitled Draft"
-author: "Report Author"
+title: "Analysis report for the manuscript 'Temporal dynamics of the deep-sea pink sea urchin *Strongylocentrotus fragilis* on the Northeast Pacific continental margin'."
+author: "Rylan J. Command"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
