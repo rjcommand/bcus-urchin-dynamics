@@ -5,7 +5,7 @@ make_figure_4_data <- function(.model, omno_doy) {
   return(oxygen_preds_8_plot)
 }
 
-fig4 <- function(oxygen_preds_8_plot) {
+plot_fig4 <- function(oxygen_preds_8_plot) {
   p <- 
     ggplot() +
     
@@ -33,7 +33,7 @@ fig4 <- function(oxygen_preds_8_plot) {
 }
 
 
-fig5 <- function(.model) {
+plot_fig5 <- function(.model) {
   chla_effect <- 
     gratia::draw(.model, select = "s(Chl_a)", 
                  residuals = TRUE,
@@ -101,7 +101,7 @@ make_figure_6_data <- function(.model, omno_doy) {
   return(oxy.pred.plot)
 }
 
-fig6 <- function(oxy.pred.plot) {
+plot_fig6 <- function(oxy.pred.plot) {
   # New figure 6
   oxy_chla_plot <- oxy.pred.plot %>% 
     as_tibble() %>% 

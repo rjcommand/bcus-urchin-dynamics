@@ -1,4 +1,4 @@
-fig7 <- function(m1c_AR1) {
+plot_fig7 <- function(m1c_AR1) {
   # Effects plots
   ssta_effect <- 
     gratia::draw(m1c_AR1$gam, select = "s(SSTa_new)", 
@@ -56,4 +56,3 @@ fig7 <- function(m1c_AR1) {
   return(p)
 }
 
-chl_mods <- targets::tar_read("chla_models")
