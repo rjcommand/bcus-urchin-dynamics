@@ -85,6 +85,16 @@ fit_oxygen_models <- function(omno_doy) {
                              control = ctrl)
   # anova(omt3_env_0$lme, omt3_env_AR1$lme, omt3_env_AR2$lme, omt3_env_AR3$lme)
   
+  omt3_env_final <- mgcv::gamm(Oxygen ~ 
+                           s(time_step, k = 20) + 
+                           s(DoY, k = 12, bs = "cc") + 
+                           s(Chl_a) + 
+                           s(SSTa_new) + 
+                           s(Year, bs = "re"),
+                         data = omno_doy,
+                         method = "REML",
+                         correlation = nlme::corARMA(p = 2, form = ~ 1),
+                         control = ctrl)
   return(
     list(
       omt1 = omt1, 
@@ -93,7 +103,8 @@ fit_oxygen_models <- function(omno_doy) {
       omt3_env_0 = omt3_env_0, 
       omt3_env_AR1 = omt3_env_AR1, 
       omt3_env_AR2 = omt3_env_AR2, 
-      omt3_env_AR3 = omt3_env_AR3
+      omt3_env_AR3 = omt3_env_AR3,
+      omt3_env_final = omt3_env_final
     )
   )
 }
