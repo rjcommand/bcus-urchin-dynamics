@@ -50,8 +50,8 @@ clean_and_prepare_weekly_oxygen_data <- function(path_to_oxygen_files = "data/Se
     }
   }
   
-  
-  for (i in 180:nrow(chla_gam)) {
+  # formerly: 180:nrow(chla_gam)
+  for (i in 1:nrow(chla_gam)) {
     df_part <- data.frame(test[Time >= chla_gam$Time_start[i] & Time < chla_gam$Time_end[i]])
     df_part <- 
       df_part %>% 
