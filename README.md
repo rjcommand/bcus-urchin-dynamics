@@ -4,8 +4,8 @@ All code and data required to reproduce the analysis and figures in the paper "T
 
 Raw data files were obtained from:
 - Oceans 3.0 (https://data.oceannetworks.ca/DataSearch)
-- NASA ()
-- DFO ()
+- NASA Ocean Colour (https://oceancolor.gsfc.nasa.gov/l3/order/)
+- DFO West Coast Vancouver Island Synoptic Bottom Trawl Survey (https://open.canada.ca/data/en/dataset/557e42ae-06fe-426d-8242-c3107670b1de)
 
 The analysis pipeline was built using the `targets` package. A reproducibility report detailing package versions, etc. can be found in the docs/analysis.pdf file.
 
