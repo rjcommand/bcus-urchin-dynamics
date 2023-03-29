@@ -1,6 +1,6 @@
 # bcus-urchin-dynamics
 
-All code and data required to reproduce the analysis and figures in the paper "Temporal dynamics of the deep-sea pink sea urchin *Stronylocentrotus fragilis* on the Northeast Pacific continental margin" by Command et al. 2022. The manuscript has been accepted for publication in *Deep-sea Research I*. It will be available as Open Access here: https://doi.org/10.1016/j.dsr.2022.103958 
+All code and data required to reproduce the analysis and figures in the paper "Temporal dynamics of the deep-sea pink sea urchin *Stronylocentrotus fragilis* on the Northeast Pacific continental margin" by Command et al. 2022. The manuscript has been published in *Deep-sea Research I* and is available  Open Access [here](https://doi.org/10.1016/j.dsr.2022.103958). 
 
 Raw data files were obtained from:
 - Oceans 3.0 (https://data.oceannetworks.ca/DataSearch)
