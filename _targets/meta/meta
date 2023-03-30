@@ -1,0 +1,106 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|7b7b5a4f3306f959|||||||||||||||
+aic_table|stem|d52fbd4a494bad83|8d79c82c10987a70|c3132e852931c137|561711959||t19237.403565531s|90ab8049e3c26605|245|rds|local|vector|||0.043||
+all_wcvi_data|stem|cee973b0a2927e0f|af5c12096416aac4|8bba2f4701ca1d72|-452263686||t19342.6224110535s|39454657213ea65e|360933|rds|local|vector|||0.139||
+analysis|stem|ce32f83e9c0c54b0|f173f705a4885f88|c3b4a407cd29abbd|744237335|doc/analysis.html*doc/analysis.Rmd|t19341.823114488s|1bb0549ae3a644fa|637245|file|local|vector|||5.962||
+bcus_data|stem|91788709d4539174|5084b0867d5677d9|720d2ae6ab6551fc|-736690055||t19237.3762968915s|a8c3c9eee4d42683|211145|rds|local|vector|||0.25||
+bcus_full_data_file|stem|85c4c80af87000e2|e34a3588cd0626d2|ef46db3751d8e999|1786463651|data/full-data.csv|t18647.5689583333s|8bbf94becd2190d8|763887|file|local|vector|||0.001||
+bcus_modeling_data|stem|ecea01a35998afc4|de5c0bb35f01cfea|4d8fb325e90fd54c|-1701302988||t19237.3762985347s|cfcfc5b695403fce|215794|rds|local|vector|||0.11||
+chl_mods|object|382239642f4a6406|||||||||||||||
+chla|object|23018a41db2400c6|||||||||||||||
+chla_and_buoy_data|stem|91a7c03e601b43a9|683f7025156e6217|fcfadfda84eeaf5d|1779817560||t19341.8096363261s|6ce7176b3bc51f05|23213|rds|local|vector|||0.052||
+chla_clean|stem|775d0a0cb5c7366c|3a3a8f4fae021603|296a6cfa3a3d226a|207698178||t19341.5939836233s|7bbd0f3227562340|10816|rds|local|vector|||0.048||
+chla_clean_file|stem|e6200067fdd78da4|31d00fcef74535f0|ef46db3751d8e999|882200569|data/chla_clean.csv|t18691.7433564815s|258f42b0e6b390d6|49851|file|local|vector|||0.001||
+chla_model_data|function|758713644053c8d2|||||||||||||||
+chla_models|stem|782eac3f26700379|5f1e476e9ec10b67|4f97e7563fea40ff|555714795||t19341.8148599899s|f6789429f10cf3a1|420295|rds|local|vector|||1.547||
+chla_prepared|stem|7e52f3415af81b76|59a6c4fd6f5913cf|a766498936a84192|-1966458777||t19341.5964811947s|e909ec5585c7a4cc|4529|rds|local|vector|||0.027||
+chla_prepared2|stem|49391f3b5c90701e|43e9319dfd0daa74|a0ee53f71862a265|-46200268||t19341.8087029401s|4eb44fd0c270b591|11286|rds|local|vector|||0.005||
+chlorophyll_model_data|stem|d1136eaffef6e21f|9f4f4f1a3b8877b6|24469e61281845db|293462848||t19341.8114469351s|f60e1481e1cca0cb|10204|rds|local|vector|||0.022||
+chlorophyll_model_residuals_plots|function|9cc5465d376819d9|||||||||||||||
+clean_and_prepare_buoy_data|function|c110173c80c43b95|||||||||||||||
+clean_and_prepare_weekly_oxygen_data|function|1856bdda4513bd59|||||||||||||||
+clean_bcus_data|function|26d9c6f7564fbc5e|||||||||||||||
+clean_chlorophyll_data|function|e9cffd75cf175a6a|||||||||||||||
+clean_wcvi_all_trawls_data|function|fac6aa964b703aa8|||||||||||||||
+clean_wcvi_urchin_trawls_data|function|7d1a0885f3041969|||||||||||||||
+combine_chla_and_buoy_data|function|7b8b2c0e97e51173|||||||||||||||
+combine_oxygen_and_chla|function|fa722a943faafd0d|||||||||||||||
+combine_oxygen_chla_buoy_data|function|71dbe95d7c2d3019|||||||||||||||
+current.direction|function|cad4b2de0f54ab88|||||||||||||||
+data|object|e7165d6ea9b5cf6e|||||||||||||||
+fig10|stem|748b369a8c8f5c4f|6c37d65be5771927|bd8673621584d9e3|-1602602865||t19342.6328785197s|99587f14638ff03f|139818|rds|local|vector|||0.634||
+fig2|stem|1211fcb0be9c2713|78d5839386127a3a|c8a102a6aa2c17d5|-983253655||t19238.5757114597s|07687c36743cfdb5|829925|rds|local|vector|||1.789|Removed 34 rows containing missing values geom_point.. is.na applied to nonlist or vector of type expression|
+fig3|stem|62315f71fd9d57a2|7a820b2a988a6e89|e6bcc25a68a436a1|-1819616846||t19238.7154212258s|c0699b521e33b7a6|3300477|rds|local|vector|||1.849|number of items to replace is not a multiple of replacement length. number of items to replace is not a multiple of replacement length. number of items to replace is not a multiple of replacement length|
+fig4|stem|6047cadfce2d77b5|1df6ec0a2e13cdcf|dd3bd3ff508d241d|-1725963044||t19342.7743062379s|fc89e68999a65856|157688|rds|local|vector|||0.563||
+fig4_data|stem|65566a06067a4a1e|91e48ddf52d09976|9e8cef34a9da5a1e|297574571||t19342.7742632979s|98d4ffcec7b79a4f|10334|rds|local|vector|||0.014||
+fig5|stem|8ecf35afc81a04e8|d09051aed00fbfc8|9570356c553ed378|1784088395||t19342.7742988333s|425d385953b3c542|67|rds|local|vector|||3.048|Removed 1 rows containing missing values geom_point.. Removed 1 rows containing missing values geom_point.. Removed 2 rows containing missing values geom_point.. Removed 1 rows containing missing values geom_point.|
+fig6|stem|dbf2019953d7f2b8|9b7354a3de3991ea|333327bb46651f76|2024055782||t19342.7743132906s|8ae65df7ec51dde4|101520|rds|local|vector|||0.559||
+fig6_data|stem|65566a06067a4a1e|3d97ba828867a878|b3c86da09ac8bcd5|-624968882||t19342.7742634767s|98d4ffcec7b79a4f|10334|rds|local|vector|||0.006||
+fig7|stem|a9cf957d046ef401|6fb8262db81ab8d8|5a3c86d2a6e9b921|1423203398||t19342.6292375421s|d6d7691d38d95bce|268045|rds|local|vector|||1.341||
+fig8|stem|f85ca5963f47ecc7|2490d62212210f95|a868f0c6f9582d05|1663498475||t19342.6319430455s|f02e4af5b5f7368a|187697|rds|local|vector|||3.208||
+fig9|stem|233fd313dc1fa2da|a3a76305d71b8993|a238bae1795cb48a|879696764||t19342.6284950401s|7dc3321986dbb1b6|453994|rds|local|vector|||1.432||
+fig9_data|stem|339936cf5b1f8ec4|258a0d4eb2190a28|4abbbe8f2b54f501|1146602181||t19342.6258450823s|7b9ddeb402a9cc2c|649|rds|local|vector|||0.081||
+figS1|stem|8c765393ba635e07|1c41858532ab0c08|3ffa0d4ba8dac7a1|-257327608||t19342.6236650755s|b7c3bad933b08626|4852627|rds|local|vector|||16.897|Discarded ellps WGS 84 in Proj4 definition projmerc a6378137 b6378137 lat_ts0 lon_00 x_00 y_00 k1 unitsm nadgridsnull wktext no_defs typecrs. Discarded datum World Geodetic System 1984 in Proj4 definition. Raster pixels are placed at uneven vertical intervals and will be shifted. Consider using geom_tile instead.. Removed 95448 rows containing missing values geom_raster.. Removed 433440 rows containing missing values geom_raster.|
+figS3|function|c393b287853deac5|||||||||||||||
+figS5|stem|98c2b97d7d8c1a3f|abb7787070af5b7c|01a297abf6ea6577|2038534074||t19342.6319888448s|ca652c008af2aa3d|449670|rds|local|vector|||3.507||
+fit_chlorophyll_models|function|40820bace91cb777|||||||||||||||
+fit_oxygen_models|function|d406f442e0fac223|||||||||||||||
+fit_urchin_models|function|4eaef7bdd739e266|||||||||||||||
+fit_wcvi_models|function|89c16977722a0600|||||||||||||||
+get_aic_table|function|ab394dd526e0a58d|||||||||||||||
+get_chla_data|function|8d1ec0e4525d874a|||||||||||||||
+get.ADCP.data|function|d6bbd074174e4469|||||||||||||||
+get.ADCP.pressure|function|3d0d843ad3bd2456|||||||||||||||
+get.Envir.data|function|f11afc077b09a631|||||||||||||||
+load_wcvi_data|function|939de3acb9653ab2|||||||||||||||
+make_figure_4_data|function|139bb8dde2244c8d|||||||||||||||
+make_figure_6_data|function|b5be4c453c93f2a9|||||||||||||||
+make_figure_9_data|function|0b41ee7905ed2e18|||||||||||||||
+md|object|8d3ce7ba92af740c|||||||||||||||
+model_summary_table|function|da1cf9bac5180463|||||||||||||||
+new_urchin_model_smooth_plot|function|fa7dca65785c0f11|||||||||||||||
+omno_doy|stem|eea74c766f0f3595|605ab10307bd2e42|bb896c916e17543d|-352946382||t19342.7740319016s|10b3b4f4aedab335|10625|rds|local|vector|||0.095||
+oxygen_and_chla_data|stem|9662f80e88669b24|1e2edf98024a1fec|1b9ccace42da2d8a|-945608396||t19342.7740293504s|d7296bb353d63318|7575|rds|local|vector|||0.194|tz Dont know how to compute timezone for object of class factor returning UTC. This warning will become an error in the next major version of lubridate.. tz Dont know how to compute timezone for object of class factor returning UTC. This warning will become an error in the next major version of lubridate.|
+oxygen_binned|stem|8d246cf7926fbc74|49ee3208617e1999|7352da38a00f838c|-252101957||t19342.7740255328s|b4b2d650bc80685f|3466|rds|local|vector|||4310.49|invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated|
+oxygen_model_data|stem|77e9571c90331419|59d3e80ab5db7de4|5a5dce3efd04bf9b|-288982761||t19342.7740304471s|6cdbef7a30f5bd34|10721|rds|local|vector|||0.032||
+oxygen_model_residual_plots|function|32c39ea43afca9ac|||||||||||||||
+oxygen_models|stem|9dad4d0a5b12f340|4f0af83c89f28094|7c9a256925e52a06|822445774||t19342.7742629159s|458ce7a1ac0e7a57|3389258|rds|local|vector|||19.718||
+plot_fig10|function|3f7a49037cd2673e|||||||||||||||
+plot_fig4|function|e2bf227ff0f6f736|||||||||||||||
+plot_fig5|function|34174688f9cca6a2|||||||||||||||
+plot_fig6|function|a5c1062a8dc58045|||||||||||||||
+plot_fig7|function|b2f301df16b559fb|||||||||||||||
+plot_fig8|function|e56aba10ffe5fcaa|||||||||||||||
+plot_fig9|function|515ce81d015d81d1|||||||||||||||
+plot_figS1|function|5e5e1fb88d7ed846|||||||||||||||
+plot_figS5|function|86faf2b5334759f7|||||||||||||||
+pre_prepare_chlorophyll_model_data|function|6803e4a5e7edb6fe|||||||||||||||
+prepare_buoy_data_for_chlorophyll_model|function|4ad869a3dd14c9c0|||||||||||||||
+prepare_chlorophyll_model_data|function|255a04a338f127f2|||||||||||||||
+prepare_oxygen_model_data|function|e3b7b2cef980c971|||||||||||||||
+prepare_wcvi_density_data|function|01cd725a323dc824|||||||||||||||
+prepare_wcvi_depth_bins_data|function|6d1c03721417c131|||||||||||||||
+prepare_wcvi_depth_data|function|11e2fad9c645435d|||||||||||||||
+se|function|d78e6ae19ca5378e|||||||||||||||
+sstp_clean|stem|e9590b7b874fedde|83804259e989ecc6|48cbd20e59080348|-263450532||t19341.7850479738s|7704fbe0f9631b93|22173|rds|local|vector|||18.617|invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated. invalid factor level, NA generated|
+sstp_clean2|stem|c717b09e7b72e2c7|1fb0ee8152414d85|c37ae209d232fb2b|1311526223||t19341.8096354553s|4733cc12fea2b975|12971|rds|local|vector|||31.783||
+summary_statistics_table|function|de001a040c87f912|||||||||||||||
+trawl_depth|stem|af9b2778cae000a0|0cec70cdf7e8ae0f|af53598d310251fd|-1282815706||t19342.6234443841s|9fb7b871fd7bcf91|417276|rds|local|vector|||0.13|NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion|
+urchin_model|object|96e08d40c17872c0|||||||||||||||
+urchin_model_smooth_plot|function|a6b7a80c1f79becb|||||||||||||||
+urchin_model_summary_table|stem|82bff7d1e07742e1|d204616556608276|5d9dd95d85b95e09|-213755495||t19238.5795355959s|2197d9a853d67a08|457|rds|local|vector|||0.067||
+urchin_model_timeseries_plot|function|2af777e1b9bdcfb1|||||||||||||||
+urchin_model_timeseries_plot_supplement|function|42a6a9b128157830|||||||||||||||
+urchin_models|stem|711e90a2ae9f9378|13ee56a8f7a7f343|377d26619820ada6|-1845599742||t19237.3888920041s|5b61a41c4d687fb6|8730841|rds|local|vector|||65.744|model has repeated 1d smooths of same variable.|
+urchin_statistics_table|stem|6761348c100eae70|c4c6c6c1075fe201|c45112c383e68c3a|963325634||t19237.379437372s|f008763eb0bfd232|318|rds|local|vector|||0.181||
+urchin_trawls_IMPUTED|stem|e82182b1b357f9b6|513a2f8078593dae|875d4af0485b939f|1016584738||t19342.6234408633s|5e0da340b2b26143|23787|rds|local|vector|||0.113|NAs introduced by coercion. NAs introduced by coercion|
+wcvi_catch_file|stem|379d370abf3d7a77|f8b6cf25b116f047|ef46db3751d8e999|-1080989331|data/WCVI_catch.csv|t18389.9021759259s|b09e2102418f3853|4048964|file|local|vector|||0.001||
+wcvi_density|stem|08634fa6e604bdd3|9fade9328f0b5b91|f4738e5fd4940f04|1307670883||t19342.6234448807s|7c0ee4201d2f7db8|496|rds|local|vector|||0.012||
+wcvi_depth|stem|41b3d5b67a57a6ad|3af542171a176dbb|c3d2d2ac8f503697|-1312478743||t19342.6234459106s|605ca1ea441bb86a|7699|rds|local|vector|||0.035||
+wcvi_depth_bins|stem|bbc05fbb5e1f47a4|51178a515569246f|9ef08d3c96c05259|810985282||t19342.6234454409s|bb6d43eab01c6207|1256|rds|local|vector|||0.043||
+wcvi_effort_file|stem|2f2a08df744782df|f09be03528383e37|ef46db3751d8e999|1506056367|data/WCVI_effort.csv|t18304.7870601852s|2e1775282dd347fb|220420|file|local|vector|||0.001||
+wcvi_kruskal_wallis_test|function|e84566b36a3df9e1|||||||||||||||
+wcvi_ks_posthoc_test|function|796b2debc4752249|||||||||||||||
+wcvi_kw_posthoc_table|stem|113b2acd45216842|adac0dfc9b4886d1|e206b02608987ac3|-1553074409||t19342.6284760289s|ad449b3d431fb011|683|rds|local|vector|||0.123||
+wcvi_kw_test_table|stem|7303b969cee15f88|37fafef57c0450e2|7c09b827e88279bc|1941900166||t19342.6284740659s|71aa9433cd220075|27672|rds|local|vector|||0.065|Ties are present. zquantiles were corrected for ties.|
+wcvi_models|stem|e4b6b3bd6ec48b6f|3b569450eab6c879|c9b3261a2dbea613|1196325983||t19342.6284954038s|15a2846a12d9b96b|6031|rds|local|vector|||0.024||
